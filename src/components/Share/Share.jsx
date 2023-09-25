@@ -6,13 +6,13 @@ export default function Share() {
     <div className="share">
         <div className="shareWrapper">
             <div className="shareTop">
-                <img className="shareProfileImg" src="" alt="" />
-                <input type="What's On Your Mind" className="shareInput" />
+                <img className="shareProfileImg" src="/src/assets/person/1.jpeg" alt="" />
+                <input placeholder="What's On Your Mind" className="shareInput" />
             </div>
             <hr className="shareHr" />
             <div className="shareBottom">
                 <div className="shareOptions">
-                    <div className="shareOptipn">
+                    <div className="shareOption">
                         <PermMedia className="shareIcon"/>
                         <span className="shareOptionText">Photo or Video</span>
                     </div>
