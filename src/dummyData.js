@@ -63,10 +63,28 @@ export const Posts = [
     },
     {
         id: 2,
+        desc:"The only thing that makes sense is to be happy.",
         photo: "/src/assets/post/2.jpeg",
         date: "15 Mins Ago",
         userId: 2,
         like: 2,
         comment: 1,
+    },
+    {
+        id: 3,
+        desc: "I am the one who has to make sure you don't get hurt in your sleep!",
+        photo: "/src/assets/post/3.jpeg",
+        date: "35 Mins Ago",
+        userId: 3,
+        like: 23,
+        comment: 11,
+    },
+    {
+        id: 4,
+        photo: "/src/assets/post/4.jpeg",
+        date: "45 Mins Ago",
+        userId: 4,
+        like: 22,
+        comment: 14,
     }
 ]
