@@ -1,7 +1,8 @@
 import { MoreVert } from "@mui/icons-material"
 import "./Post.css"
 
-export default function Post() {
+export default function Post({post}) {
+    console.log(post);
   return (
     <div className="post">
         <div className="postWrapper">
