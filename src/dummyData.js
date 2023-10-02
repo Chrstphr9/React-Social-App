@@ -49,4 +49,24 @@ export const User = [
         profilePicture: "/src/assets/person/10.jpeg",
         username: "Andrews Dame"
     },
+];
+
+export const Posts = [
+    {
+        id: 1,
+        desc: "Love For All, Hatred For None",
+        photo: "/src/assets/post/1.jpeg",
+        date: "5 Mins Ago",
+        userId: 1,
+        like: 32,
+        comment: 9,
+    },
+    {
+        id: 2,
+        photo: "/src/assets/post/2.jpeg",
+        date: "15 Mins Ago",
+        userId: 2,
+        like: 2,
+        comment: 1,
+    }
 ]
