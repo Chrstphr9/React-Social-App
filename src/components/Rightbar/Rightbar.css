@@ -22,6 +22,10 @@
     font-size: 15px;
 }
 
+.rightbarTitle {
+    margin-bottom: 20px;
+}
+
 .rightbarAd {
     width: 100%;
     border-radius: 10px;
@@ -40,8 +44,8 @@
     margin-bottom: 15px;
 }
 
-.rightbarProfileImgContaine {
-    margin-right: 10px;
+.rightbarProfileImgContainer {
+    margin-right: 20px;
     position: relative;
 }
 
@@ -50,4 +54,20 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.rightbarOnline {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    border: 2px solid white;
+    top: -2px;
+    right: 0;
+    
+}
+
+.rightbarUsername {
+    font-weight: 500;
 }
