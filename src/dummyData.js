@@ -1,4 +1,4 @@
-export const User = [
+export const Users = [
     {
         id: 1,
         profilePicture: "/src/assets/person/1.jpeg",
